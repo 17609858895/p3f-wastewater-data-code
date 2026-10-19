@@ -1,0 +1,43 @@
+{
+  "written_utc": "2026-10-19T01:20:05+00:00",
+  "purpose": "Pre-specified selection of the revised P3F point objective and interval layer.",
+  "data_used": "Training/rolling-validation pool only (2021-08-03 to 2022-10-28). Calibration and test blocks are not read by this script.",
+  "point_candidates": {
+    "huber": "LightGBM Huber, transition threshold 0.9 mg/L (P3F v1)",
+    "l1": "LightGBM L1 (conditional median) on the same increment target"
+  },
+  "tree_settings": {
+    "n_estimators": 360,
+    "learning_rate": 0.035,
+    "num_leaves": 63,
+    "max_depth": 10,
+    "min_child_samples": 80,
+    "subsample": 0.85,
+    "subsample_freq": 1,
+    "colsample_bytree": 0.78,
+    "reg_alpha": 0.15,
+    "reg_lambda": 1.5,
+    "n_jobs": -1,
+    "verbosity": -1
+  },
+  "quantile_heads": "LightGBM quantile objective at 0.05, 0.25, 0.75 and 0.95 on the increment target, same tree settings; heads sorted row-wise to remove crossing.",
+  "interval_candidates": {
+    "SC": "split-conformal absolute residual around the point forecast, one quantile per task",
+    "SC-phase": "split-conformal absolute residual, separate quantile for inlet phase 1 and 2 at issuance (Mondrian)",
+    "CQR": "conformalised quantile regression (Romano et al., 2019), one correction per task",
+    "CQR-phase": "conformalised quantile regression, separate correction for inlet phase 1 and 2 at issuance (Mondrian)"
+  },
+  "reference_only": {
+    "QR": "raw quantile heads without conformal correction (not eligible)"
+  },
+  "conformal_quantile": "ceil((n+1)(1-alpha))-th smallest calibration score; lower limits truncated at zero",
+  "fold_design": {
+    "point_selection": "each fold's model fitted on the full fold-training window and evaluated on the validation month (as in Table S6)",
+    "interval_selection": "fold-training window split into an inner training part and the final 30 days as fold calibration, separated by a 78 h purge; validation month as above",
+    "seeds": "base seed 20260809 + fold number"
+  },
+  "rule_point": "Select the objective with the higher MAE skill averaged over 4 folds x 10 tasks.",
+  "rule_interval": "Among SC, SC-phase, CQR and CQR-phase (built on the selected objective), keep candidates whose mean 90 % validation coverage over folds and tasks is at least 0.88; select the one with the lowest mean 90 % interval score (Gneiting and Raftery, 2007) divided by the fold-task persistence MAE. The selected method is used for both 50 % and 90 % intervals.",
+  "test_rule": "The future-test block is evaluated only after B_selected_configuration.json is written. Non-selected candidates are also reported on the test block without altering the selection.",
+  "disclosure": "The future-test block of P3F v1 was examined before this protocol was written (diagnosis of high-concentration and summer coverage shortfalls)."
+}

@@ -1,0 +1,16 @@
+{
+  "inlet_phase_duration_min": {
+    "median": 40.0,
+    "q25": 30.0,
+    "q75": 60.0
+  },
+  "inlet_cycle_min": {
+    "median": 80.0,
+    "q25": 50.0,
+    "q75": 110.0
+  },
+  "no_transition_test_windows": 996,
+  "share_phase_ending_within_30min": 1.0,
+  "non_integer_inlet_codes": 67,
+  "non_integer_outlet_codes": 68
+}

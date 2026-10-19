@@ -1,0 +1,9 @@
+target,horizon,concentration,ad_class,n,coverage90
+T1_PO4,4h,Below training Q90,In-domain,24240,0.9711221122112211
+T1_PO4,4h,Below training Q90,Borderline/far-OOD,430,0.9209302325581395
+T1_PO4,4h,At/above training Q90,In-domain,1221,0.47092547092547093
+T1_PO4,4h,At/above training Q90,Borderline/far-OOD,137,0.8394160583941606
+T1_NH4,4h,Below training Q90,In-domain,24404,0.9605392558596951
+T1_NH4,4h,Below training Q90,Borderline/far-OOD,427,0.9180327868852459
+T1_NH4,4h,At/above training Q90,In-domain,1057,0.5118259224219489
+T1_NH4,4h,At/above training Q90,Borderline/far-OOD,140,0.7428571428571429

@@ -1,0 +1,196 @@
+﻿feature,family,lag_band,available_at_issuance
+IN_METAL_Q,Metal dosing,state/current,True
+T1_O2,Dissolved O2,state/current,True
+METAL_Q,Metal dosing,state/current,True
+TEMPERATURE,Temperature,state/current,True
+IN_Q,Influent flow,state/current,True
+MAX_CF,Control factor,state/current,True
+T1_NH4,NH4 history,state/current,True
+T1_PO4,PO4 history,state/current,True
+PROCESSPHASE_INLET,Process phase,state/current,True
+PROCESSPHASE_OUTLET,Process phase,state/current,True
+IN_METAL_Q_lag1,Metal dosing,recent <=1 h,True
+IN_METAL_Q_lag3,Metal dosing,recent <=1 h,True
+IN_METAL_Q_lag6,Metal dosing,recent <=1 h,True
+IN_METAL_Q_lag12,Metal dosing,short 1-6 h,True
+IN_METAL_Q_lag24,Metal dosing,short 1-6 h,True
+IN_METAL_Q_lag36,Metal dosing,short 1-6 h,True
+IN_METAL_Q_lag72,Metal dosing,circadian 12-24 h,True
+IN_METAL_Q_lag144,Metal dosing,circadian 12-24 h,True
+IN_METAL_Q_lag288,Metal dosing,long 48 h,True
+T1_O2_lag1,Dissolved O2,recent <=1 h,True
+T1_O2_lag3,Dissolved O2,recent <=1 h,True
+T1_O2_lag6,Dissolved O2,recent <=1 h,True
+T1_O2_lag12,Dissolved O2,short 1-6 h,True
+T1_O2_lag24,Dissolved O2,short 1-6 h,True
+T1_O2_lag36,Dissolved O2,short 1-6 h,True
+T1_O2_lag72,Dissolved O2,circadian 12-24 h,True
+T1_O2_lag144,Dissolved O2,circadian 12-24 h,True
+T1_O2_lag288,Dissolved O2,long 48 h,True
+METAL_Q_lag1,Metal dosing,recent <=1 h,True
+METAL_Q_lag3,Metal dosing,recent <=1 h,True
+METAL_Q_lag6,Metal dosing,recent <=1 h,True
+METAL_Q_lag12,Metal dosing,short 1-6 h,True
+METAL_Q_lag24,Metal dosing,short 1-6 h,True
+METAL_Q_lag36,Metal dosing,short 1-6 h,True
+METAL_Q_lag72,Metal dosing,circadian 12-24 h,True
+METAL_Q_lag144,Metal dosing,circadian 12-24 h,True
+METAL_Q_lag288,Metal dosing,long 48 h,True
+TEMPERATURE_lag1,Temperature,recent <=1 h,True
+TEMPERATURE_lag3,Temperature,recent <=1 h,True
+TEMPERATURE_lag6,Temperature,recent <=1 h,True
+TEMPERATURE_lag12,Temperature,short 1-6 h,True
+TEMPERATURE_lag24,Temperature,short 1-6 h,True
+TEMPERATURE_lag36,Temperature,short 1-6 h,True
+TEMPERATURE_lag72,Temperature,circadian 12-24 h,True
+TEMPERATURE_lag144,Temperature,circadian 12-24 h,True
+TEMPERATURE_lag288,Temperature,long 48 h,True
+IN_Q_lag1,Influent flow,recent <=1 h,True
+IN_Q_lag3,Influent flow,recent <=1 h,True
+IN_Q_lag6,Influent flow,recent <=1 h,True
+IN_Q_lag12,Influent flow,short 1-6 h,True
+IN_Q_lag24,Influent flow,short 1-6 h,True
+IN_Q_lag36,Influent flow,short 1-6 h,True
+IN_Q_lag72,Influent flow,circadian 12-24 h,True
+IN_Q_lag144,Influent flow,circadian 12-24 h,True
+IN_Q_lag288,Influent flow,long 48 h,True
+MAX_CF_lag1,Control factor,recent <=1 h,True
+MAX_CF_lag3,Control factor,recent <=1 h,True
+MAX_CF_lag6,Control factor,recent <=1 h,True
+MAX_CF_lag12,Control factor,short 1-6 h,True
+MAX_CF_lag24,Control factor,short 1-6 h,True
+MAX_CF_lag36,Control factor,short 1-6 h,True
+MAX_CF_lag72,Control factor,circadian 12-24 h,True
+MAX_CF_lag144,Control factor,circadian 12-24 h,True
+MAX_CF_lag288,Control factor,long 48 h,True
+T1_NH4_lag1,NH4 history,recent <=1 h,True
+T1_NH4_lag3,NH4 history,recent <=1 h,True
+T1_NH4_lag6,NH4 history,recent <=1 h,True
+T1_NH4_lag12,NH4 history,short 1-6 h,True
+T1_NH4_lag24,NH4 history,short 1-6 h,True
+T1_NH4_lag36,NH4 history,short 1-6 h,True
+T1_NH4_lag72,NH4 history,circadian 12-24 h,True
+T1_NH4_lag144,NH4 history,circadian 12-24 h,True
+T1_NH4_lag288,NH4 history,long 48 h,True
+T1_PO4_lag1,PO4 history,recent <=1 h,True
+T1_PO4_lag3,PO4 history,recent <=1 h,True
+T1_PO4_lag6,PO4 history,recent <=1 h,True
+T1_PO4_lag12,PO4 history,short 1-6 h,True
+T1_PO4_lag24,PO4 history,short 1-6 h,True
+T1_PO4_lag36,PO4 history,short 1-6 h,True
+T1_PO4_lag72,PO4 history,circadian 12-24 h,True
+T1_PO4_lag144,PO4 history,circadian 12-24 h,True
+T1_PO4_lag288,PO4 history,long 48 h,True
+PROCESSPHASE_INLET_lag1,Process phase,state/current,True
+PROCESSPHASE_INLET_lag3,Process phase,state/current,True
+PROCESSPHASE_INLET_lag6,Process phase,state/current,True
+PROCESSPHASE_INLET_lag12,Process phase,state/current,True
+PROCESSPHASE_INLET_lag24,Process phase,state/current,True
+PROCESSPHASE_INLET_lag36,Process phase,state/current,True
+PROCESSPHASE_INLET_lag72,Process phase,state/current,True
+PROCESSPHASE_INLET_lag144,Process phase,state/current,True
+PROCESSPHASE_INLET_lag288,Process phase,state/current,True
+PROCESSPHASE_OUTLET_lag1,Process phase,state/current,True
+PROCESSPHASE_OUTLET_lag3,Process phase,state/current,True
+PROCESSPHASE_OUTLET_lag6,Process phase,state/current,True
+PROCESSPHASE_OUTLET_lag12,Process phase,state/current,True
+PROCESSPHASE_OUTLET_lag24,Process phase,state/current,True
+PROCESSPHASE_OUTLET_lag36,Process phase,state/current,True
+PROCESSPHASE_OUTLET_lag72,Process phase,state/current,True
+PROCESSPHASE_OUTLET_lag144,Process phase,state/current,True
+PROCESSPHASE_OUTLET_lag288,Process phase,state/current,True
+IN_METAL_Q_roll6_mean,Metal dosing,recent <=1 h,True
+IN_METAL_Q_roll6_std,Metal dosing,recent <=1 h,True
+IN_METAL_Q_roll6_range,Metal dosing,recent <=1 h,True
+IN_METAL_Q_roll36_mean,Metal dosing,short 1-6 h,True
+IN_METAL_Q_roll36_std,Metal dosing,short 1-6 h,True
+IN_METAL_Q_roll36_range,Metal dosing,short 1-6 h,True
+IN_METAL_Q_roll144_mean,Metal dosing,circadian 12-24 h,True
+IN_METAL_Q_roll144_std,Metal dosing,circadian 12-24 h,True
+IN_METAL_Q_roll144_range,Metal dosing,circadian 12-24 h,True
+IN_METAL_Q_roll288_mean,Metal dosing,long 48 h,True
+IN_METAL_Q_roll288_std,Metal dosing,long 48 h,True
+IN_METAL_Q_roll288_range,Metal dosing,long 48 h,True
+T1_O2_roll6_mean,Dissolved O2,recent <=1 h,True
+T1_O2_roll6_std,Dissolved O2,recent <=1 h,True
+T1_O2_roll6_range,Dissolved O2,recent <=1 h,True
+T1_O2_roll36_mean,Dissolved O2,short 1-6 h,True
+T1_O2_roll36_std,Dissolved O2,short 1-6 h,True
+T1_O2_roll36_range,Dissolved O2,short 1-6 h,True
+T1_O2_roll144_mean,Dissolved O2,circadian 12-24 h,True
+T1_O2_roll144_std,Dissolved O2,circadian 12-24 h,True
+T1_O2_roll144_range,Dissolved O2,circadian 12-24 h,True
+T1_O2_roll288_mean,Dissolved O2,long 48 h,True
+T1_O2_roll288_std,Dissolved O2,long 48 h,True
+T1_O2_roll288_range,Dissolved O2,long 48 h,True
+METAL_Q_roll6_mean,Metal dosing,recent <=1 h,True
+METAL_Q_roll6_std,Metal dosing,recent <=1 h,True
+METAL_Q_roll6_range,Metal dosing,recent <=1 h,True
+METAL_Q_roll36_mean,Metal dosing,short 1-6 h,True
+METAL_Q_roll36_std,Metal dosing,short 1-6 h,True
+METAL_Q_roll36_range,Metal dosing,short 1-6 h,True
+METAL_Q_roll144_mean,Metal dosing,circadian 12-24 h,True
+METAL_Q_roll144_std,Metal dosing,circadian 12-24 h,True
+METAL_Q_roll144_range,Metal dosing,circadian 12-24 h,True
+METAL_Q_roll288_mean,Metal dosing,long 48 h,True
+METAL_Q_roll288_std,Metal dosing,long 48 h,True
+METAL_Q_roll288_range,Metal dosing,long 48 h,True
+TEMPERATURE_roll6_mean,Temperature,recent <=1 h,True
+TEMPERATURE_roll6_std,Temperature,recent <=1 h,True
+TEMPERATURE_roll6_range,Temperature,recent <=1 h,True
+TEMPERATURE_roll36_mean,Temperature,short 1-6 h,True
+TEMPERATURE_roll36_std,Temperature,short 1-6 h,True
+TEMPERATURE_roll36_range,Temperature,short 1-6 h,True
+TEMPERATURE_roll144_mean,Temperature,circadian 12-24 h,True
+TEMPERATURE_roll144_std,Temperature,circadian 12-24 h,True
+TEMPERATURE_roll144_range,Temperature,circadian 12-24 h,True
+TEMPERATURE_roll288_mean,Temperature,long 48 h,True
+TEMPERATURE_roll288_std,Temperature,long 48 h,True
+TEMPERATURE_roll288_range,Temperature,long 48 h,True
+IN_Q_roll6_mean,Influent flow,recent <=1 h,True
+IN_Q_roll6_std,Influent flow,recent <=1 h,True
+IN_Q_roll6_range,Influent flow,recent <=1 h,True
+IN_Q_roll36_mean,Influent flow,short 1-6 h,True
+IN_Q_roll36_std,Influent flow,short 1-6 h,True
+IN_Q_roll36_range,Influent flow,short 1-6 h,True
+IN_Q_roll144_mean,Influent flow,circadian 12-24 h,True
+IN_Q_roll144_std,Influent flow,circadian 12-24 h,True
+IN_Q_roll144_range,Influent flow,circadian 12-24 h,True
+IN_Q_roll288_mean,Influent flow,long 48 h,True
+IN_Q_roll288_std,Influent flow,long 48 h,True
+IN_Q_roll288_range,Influent flow,long 48 h,True
+T1_NH4_roll6_mean,NH4 history,recent <=1 h,True
+T1_NH4_roll6_std,NH4 history,recent <=1 h,True
+T1_NH4_roll6_range,NH4 history,recent <=1 h,True
+T1_NH4_roll36_mean,NH4 history,short 1-6 h,True
+T1_NH4_roll36_std,NH4 history,short 1-6 h,True
+T1_NH4_roll36_range,NH4 history,short 1-6 h,True
+T1_NH4_roll144_mean,NH4 history,circadian 12-24 h,True
+T1_NH4_roll144_std,NH4 history,circadian 12-24 h,True
+T1_NH4_roll144_range,NH4 history,circadian 12-24 h,True
+T1_NH4_roll288_mean,NH4 history,long 48 h,True
+T1_NH4_roll288_std,NH4 history,long 48 h,True
+T1_NH4_roll288_range,NH4 history,long 48 h,True
+T1_PO4_roll6_mean,PO4 history,recent <=1 h,True
+T1_PO4_roll6_std,PO4 history,recent <=1 h,True
+T1_PO4_roll6_range,PO4 history,recent <=1 h,True
+T1_PO4_roll36_mean,PO4 history,short 1-6 h,True
+T1_PO4_roll36_std,PO4 history,short 1-6 h,True
+T1_PO4_roll36_range,PO4 history,short 1-6 h,True
+T1_PO4_roll144_mean,PO4 history,circadian 12-24 h,True
+T1_PO4_roll144_std,PO4 history,circadian 12-24 h,True
+T1_PO4_roll144_range,PO4 history,circadian 12-24 h,True
+T1_PO4_roll288_mean,PO4 history,long 48 h,True
+T1_PO4_roll288_std,PO4 history,long 48 h,True
+T1_PO4_roll288_range,PO4 history,long 48 h,True
+phase_inlet_elapsed_h,Process phase,state/current,True
+phase_outlet_elapsed_h,Process phase,state/current,True
+transition_inlet_recent_1h,Process phase,state/current,True
+transition_outlet_recent_1h,Process phase,state/current,True
+phase_pair_code,Process phase,state/current,True
+hour_sin,Calendar,state/current,True
+hour_cos,Calendar,state/current,True
+doy_sin,Calendar,state/current,True
+doy_cos,Calendar,state/current,True
+dow_sin,Calendar,state/current,True
+dow_cos,Calendar,state/current,True

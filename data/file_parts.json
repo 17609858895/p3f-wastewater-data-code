@@ -1,0 +1,41 @@
+[
+  {
+    "path": "data/processed/forecast_10min_features.parquet",
+    "bytes": 61904565,
+    "sha256": "27eb219866da826ebe997c9e0c3e5931c57ab34cdc5de7e3265119cbaae3e223",
+    "parts": [
+      {
+        "path": "data/processed/forecast_10min_features.parquet.part001",
+        "bytes": 41943040,
+        "sha256": "210f89032e15bd6ae10fe64777853b81caca835910e2bf4a96b139fcc42ddd5d"
+      },
+      {
+        "path": "data/processed/forecast_10min_features.parquet.part002",
+        "bytes": 19961525,
+        "sha256": "d0c44cd7ca410185f4fc67c64b08d47bc637a4837f181ae7624e12ee9fa683cb"
+      }
+    ]
+  },
+  {
+    "path": "data/predictions/P3F_v2_calibration_test_predictions.parquet",
+    "bytes": 117657600,
+    "sha256": "06aba22d888bc127fa145103c568a6776dbe4a7715749ab2aa58c2fc17b05225",
+    "parts": [
+      {
+        "path": "data/predictions/P3F_v2_calibration_test_predictions.parquet.part001",
+        "bytes": 41943040,
+        "sha256": "3ecdb157fd7bdbe922c9d663c4116d0c5c98fc6c60ebabd71ec0e2362d51f08f"
+      },
+      {
+        "path": "data/predictions/P3F_v2_calibration_test_predictions.parquet.part002",
+        "bytes": 41943040,
+        "sha256": "54838fa1817b36d2afd10d0b61873fc1eb1856f21af3fe6778d0198ed994696d"
+      },
+      {
+        "path": "data/predictions/P3F_v2_calibration_test_predictions.parquet.part003",
+        "bytes": 33771520,
+        "sha256": "129f96a8ffefa281d9b9295fbfde830e999e6fe3d40802957869450ceefa623b"
+      }
+    ]
+  }
+]

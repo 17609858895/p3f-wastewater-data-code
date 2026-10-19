@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+models/
+runs*/
+figures/
+validation_report.json
+data/processed/forecast_10min_features.parquet
+data/predictions/P3F_v2_calibration_test_predictions.parquet
+*.assembling

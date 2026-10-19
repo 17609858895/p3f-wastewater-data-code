@@ -1,0 +1,66 @@
+{
+  "written_utc": "2026-10-19T01:51:57+00:00",
+  "point_objective": "l1",
+  "point_mean_validation_skill": {
+    "huber": 0.3479077357145676,
+    "l1": 0.35614271417006027
+  },
+  "interval_method": "CQR-phase",
+  "interval_summary": [
+    {
+      "method": "SC",
+      "eligible": true,
+      "mean_cov90": 0.8996284077884429,
+      "min_task_mean_cov90": 0.8943494630007751,
+      "mean_cov50": 0.5027523531033131,
+      "mean_scaled_is90": 4.0087743298620255,
+      "mean_scaled_is50": 2.1630352936335058,
+      "mean_width90": 2.0401632636388447,
+      "mean_abs_phase_gap90": 0.03939519300749984
+    },
+    {
+      "method": "SC-phase",
+      "eligible": true,
+      "mean_cov90": 0.9003748623332793,
+      "min_task_mean_cov90": 0.8939152916061001,
+      "mean_cov50": 0.5022147708638409,
+      "mean_scaled_is90": 3.9897865382500513,
+      "mean_scaled_is50": 2.159104160034864,
+      "mean_width90": 2.041724144651943,
+      "mean_abs_phase_gap90": 0.02278485978539562
+    },
+    {
+      "method": "CQR",
+      "eligible": true,
+      "mean_cov90": 0.8961715983448159,
+      "min_task_mean_cov90": 0.8802242530912522,
+      "mean_cov50": 0.4860248258457135,
+      "mean_scaled_is90": 3.614710370755506,
+      "mean_scaled_is50": 2.101366426979457,
+      "mean_width90": 2.1387067022979465,
+      "mean_abs_phase_gap90": 0.026823508971244792
+    },
+    {
+      "method": "CQR-phase",
+      "eligible": true,
+      "mean_cov90": 0.8953934912429841,
+      "min_task_mean_cov90": 0.8822686520004998,
+      "mean_cov50": 0.486239460294519,
+      "mean_scaled_is90": 3.6112568693558416,
+      "mean_scaled_is50": 2.101132118385671,
+      "mean_width90": 2.143456876472856,
+      "mean_abs_phase_gap90": 0.019845565011558857
+    },
+    {
+      "method": "QR",
+      "eligible": false,
+      "mean_cov90": 0.791647890964146,
+      "min_task_mean_cov90": 0.7686926550573026,
+      "mean_cov50": 0.3968218860811529,
+      "mean_scaled_is90": 3.7443981138296025,
+      "mean_scaled_is50": 2.121320032838878,
+      "mean_width90": 1.9502997109836027,
+      "mean_abs_phase_gap90": 0.03954249529293482
+    }
+  ]
+}

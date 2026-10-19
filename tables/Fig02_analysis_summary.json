@@ -1,0 +1,17 @@
+{
+  "raw_rows": 525600,
+  "ten_min_rows": 105120,
+  "fixed_week_start": "2022-08-01",
+  "fixed_week_end": "2022-08-07",
+  "retained_phase_transitions": 13514,
+  "phase_transition_counts": {
+    "1to2": 6267,
+    "2to1": 7247
+  },
+  "phase_alignment_window_h": 6,
+  "targets": [
+    "T1_PO4",
+    "T1_NH4"
+  ],
+  "units_status": "authoritative data descriptor reports nutrient concentrations in mg/L"
+}
