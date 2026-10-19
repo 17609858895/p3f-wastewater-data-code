@@ -72,8 +72,8 @@
     },
     {
       "path": "requirements.txt",
-      "bytes": 234,
-      "sha256": "f3c677eacb52f7ed8af5ab789e76f873d72649a3449e50f95330f1e9159cf5e1"
+      "bytes": 252,
+      "sha256": "90968e3e7034aa9c31f8c08e17f6d6eff5b67f0739bee353a8a0cd017fcd3950"
     },
     {
       "path": "scripts/02_build_forecast_dataset.py",
